@@ -1,20 +1,3 @@
-
-import { API } from "aws-amplify";
-import { createADTRACKER } from './graphql/mutations';
-
-const newADTRACKER = await API.graphql({
-    query: createADTRACKER,
-    variables: {
-        input: {
-		"untitledfield": 1020
-	}
-    }
-});
-
-
-
-
-
 let ventanaPopup;
 
 function abrirPopup() {

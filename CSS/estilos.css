@@ -213,12 +213,7 @@ nav.sps--blw .nav-link:hover{
         padding-left: 20px;
     }
 
-    .amapa{
-      font-size: 18px;
-    }
-  .amapa h3 {
-    font-size: 12px;
-  }
+    
     .namenu ul li a{
         font-size: 20px;
     }
@@ -239,7 +234,7 @@ nav.sps--blw .nav-link:hover{
     .namenu{
         margin-left: 90px;
     }
-
+    
     
     .namenu ul li a{
         font-size: auto;
@@ -263,7 +258,7 @@ nav.sps--blw .nav-link:hover{
         .respo{
             margin-top: 15px;
         }
-    
+
         .namenu, ul, .respo{
             
             margin-left: 30px;
@@ -324,16 +319,107 @@ nav.sps--blw .nav-link:hover{
       @media (max-width: 858px){
         .mans2{
             font-weight: 900;
-            font-size: 10px;
+            font-size: 18px;
             color: orange; 
       }
     }
 
+    @media (max-width: 600px)
+    {
+      
+    }
 .textjust{
     text-align: justify;
     line-height: 1.5;
     font-weight: 600;
     
+}
+
+@media (min-width: 720px) and (max-width: 1080px) {
+  .justifi{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    padding: 0 3.5rem;
+    color: white;
+    text-align: justify;
+  }
+  .texo {
+    
+    color: white;
+    position:absolute;
+    margin-top: 10px;
+    float: right;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .texo h2{
+    
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .texo p {
+    line-height: 0.8;
+    text-align: justify;
+    font-size: 6px;
+  }
+  .contenedor {
+    display: flex; /* Utiliza flexbox para crear el diseño de dos columnas */  
+    background-color: rgb(209, 35, 35);
+  }
+  
+  .columna {
+    flex: 1; /* Hace que las columnas sean flexibles y se expandan para llenar el espacio disponible */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado verti*/
+  }
+
+  .mans2{
+    font-size: 35px;
+  }
+  .contenedorg .manes{  
+    position:relative;
+    width: 105%;
+  top: -65px;
+  height: 114%;
+  padding-left: 8%;
+    
+  }
+  
+  .contenedorg .mans3{
+    position:relative;
+      top: -60px;
+      height: 115%;
+      width: 80%;
+       margin-left: 10%;
+  }
+
+  .fade-in-box .colunaste{
+      padding-top: 15%;
+      padding-right: 15%;
+      color: orange;
+  font-weight: bold;
+  font-size: 50px;
+ text-shadow: 2px 2px 3px white;
+  background-clip: text;
+  text-align: center;
+  }
+  
+  .tamaño{
+    margin-top: 0;
+  }
+  .flot{
+    
+    padding-left: 7%;
+    width: 100%;
+    top: -60px;
+    position: relative;
+}
 }
 
 .contenedor {
@@ -348,10 +434,10 @@ nav.sps--blw .nav-link:hover{
 
   }
 
-  .columna h1{
+  .amapa{
     color: rgb(255, 179, 39);
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
    
     background-clip: text;
     text-align: center;
@@ -378,7 +464,7 @@ nav.sps--blw .nav-link:hover{
   }
 
   .tamaño{
-    margin-top: 6%;
+    margin-top: 4%;
   }
 
   .contenedor2 {
@@ -418,14 +504,12 @@ nav.sps--blw .nav-link:hover{
     width: 100%;
     max-width: 1200px;
     padding: 30px;
-    
-    @media screen and (max-width: 760px) {
-      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 768px) {
+      
     }
     
-  }
-  
-  
   
   .clash-card {
    
@@ -714,7 +798,7 @@ nav.sps--blw .nav-link:hover{
     color: white;
     position:absolute;
     margin-left: 45%;
-    margin-top: 6%;
+    margin-top: 5%;
     float: right;
     
     font-family: 'Roboto Condensed', sans-serif;
