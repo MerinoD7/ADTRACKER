@@ -213,7 +213,12 @@ nav.sps--blw .nav-link:hover{
         padding-left: 20px;
     }
 
-    
+    .amapa{
+      font-size: 18px;
+    }
+  .amapa h3 {
+    font-size: 12px;
+  }
     .namenu ul li a{
         font-size: 20px;
     }
